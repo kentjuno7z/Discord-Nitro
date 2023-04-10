@@ -1,5 +1,3 @@
-<p align='center'>
-  <b>🦊 Follow me here 🦊</b><br>  
 
   <img src="https://cdn.discordapp.com/attachments/879708989158490152/883919490402897980/unknown.png" style="width: 60%">
 </p>
