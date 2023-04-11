@@ -1,10 +1,6 @@
 import os, requests, random, threading, json, time, multiprocessing
 from colorama import Fore
 
-# Credit to Pycenter by billythegoat356
-# Github: https://github.com/billythegoat356/pycenter/
-# License: https://github.com/billythegoat356/pycenter/blob/main/LICENSE
-
 def center(var:str, space:int=None): # From Pycenter
     if not space:
         space = (os.get_terminal_size().columns - len(var.splitlines()[int(len(var.splitlines())/2)])) / 2
