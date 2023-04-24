@@ -1,7 +1,7 @@
 import os, requests, random, threading, json, time, multiprocessing
 from colorama import Fore
 
-def center(var:str, space:int=None): # From Pycenter
+def center(var:str, space:int=None): # From Lamdev
     if not space:
         space = (os.get_terminal_size().columns - len(var.splitlines()[int(len(var.splitlines())/2)])) / 2
     
